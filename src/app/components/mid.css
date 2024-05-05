@@ -1,0 +1,21 @@
+/* mid.css */
+.background-style {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+
+
+  @media (max-width: 1024px) {
+    .background-style {
+      height: 30vh; /* Adjusted height for medium-sized screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .background-style {
+      height: 60vh; /* Adjusted height for larger screens */
+    }
+  }
+  
+  /* Add more media queries as needed for other resolutions */
+  
